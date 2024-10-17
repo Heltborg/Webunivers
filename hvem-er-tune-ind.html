@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tune ind | Fællesskab | Information</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Connected til google fonts og icons-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header/nav starter -->
+    <header>
+      <a href="index.html"><img src="img/logo.png" alt="Logo" class="logo" /></a>
+
+      <nav class="nav-container">
+        <ul>
+          <li>
+            <!--Køn og ligestilling dropdown-->
+            <a href="#">Køn og ligestilling</a>
+            <ul class="dropdown">
+              <li>
+                <a href="#">Køn og ligestilling 101</a>
+                <!--Sub-submenu dropdown-->
+                <ul class="sub-dropdown">
+                  <li><a href="hvad-betyder-ligestilling.html">Hvad betyder ligestilling?</a></li>
+                  <li><a href="#">Hvor mange køn findes der?</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Debatindlæg</a>
+                <!--Sub-submenu dropdown-->
+                <ul class="sub-dropdown">
+                  <li><a href="#">Bør der være ligestilling?</a></li>
+                  <li><a href="er-ligestilling-muligt-i-musikbranchen.html">Er ligestilling muligt i musikbranchen?</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <!--Musikbranchen dropdown-->
+            <a href="#">Musikbranchen</a>
+            <ul class="dropdown">
+              <li>
+                <a href="stot-op-om-musikken.html">Støt op om musikken</a>
+              </li>
+              <li>
+                <a href="#">Udtalelser</a>
+                <!--Sub-submenu dropdown-->
+                <ul class="sub-dropdown">
+                  <li><a href="#">Artister</a></li>
+                  <li><a href="#">Musikere</a></li>
+                  <li><a href="#">Crew</a></li>
+                  <li><a href="publikum.html">Publikum</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <!--Fællesskab dropdown-->
+            <a href="#">Fællesskab</a>
+            <ul class="dropdown">
+              <li>
+                <a href="mod-ligesindede.html">Mød ligesindede</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <!--Finurligheder dropdown-->
+            <a href="#">Finurligheder</a>
+            <ul class="dropdown">
+              <li>
+                <a href="playliste.html">Ugens playliste</a>
+              </li>
+              <li>
+                <a href="#">Fun facts</a>
+              </li>
+              <li>
+                <a href="myter.html">Myter</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <!--Om Tune Ind dropdown-->
+            <a href="#">Om Tune Ind</a>
+            <ul class="dropdown">
+              <li>
+                <a href="hvem-er-tune-ind.html">Hvem er 'Tune Ind'?</a>
+              </li>
+              <li>
+                <a href="#">Kontakt</a>
+              </li>
+            </ul>
+          </li>
+          <!--Søg-->
+          <li>
+            <form class="soeg" action="/search" method="get">
+              <i class="material-icons icon">search</i>
+              <input type="text" placeholder="Søg" name="query" />
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- sti og billede starter -->
+    <nav class="breadcrumbs" aria-label="breadcrumb">Om Tune Ind > Hvem er 'Tune Ind'?</nav>
+    <img class="hvem-er-tune-ind" src="img/tuneind.png" alt="Tune Ind skrevet i Adobe Illustrator med min håndskrift" />
+    <a href="#top"><img src="img/pil.png" alt="Pil op knap" class="rul-op" /></a>
+
+    <!--Footer starter-->
+    <footer>
+      <section class="footer-container">
+        <section class="footer-venstre">
+          <h2>Tune Ind</h2>
+          <p><strong>E-mail:</strong> Tuneind@gmail.com</p>
+          <p>www.tuneind.dk</p>
+        </section>
+        <section class="footer-hoejre">
+          <h2>Følg med</h2>
+          <ul class="some-ikoner">
+            <li>
+              <a href="#"><img src="img/logo/insta.png" alt="Instagram logo" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/logo/tiktok.png" alt="TikTok logo" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/logo/facebook.png" alt="Facebook logo" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/logo/x.png" alt="X logo" /></a>
+            </li>
+          </ul>
+          <br />
+          <h2 class="nyhedsbrev-footer">
+            <a href="nyhedsbrev.html"><img src="img/logo/brev.png" alt="Brev ikon" />Tilmeld dig nyhedsbrevet</a>
+          </h2>
+        </section>
+      </section>
+    </footer>
+  </body>
+</html>
